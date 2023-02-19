@@ -13,25 +13,25 @@
 
   <tr>
    <th>Employee ID</th>
-   <td> <jsp:getProperty property='eid' name='dto'></td>
+   <td> <jsp:getProperty property='eno' name='dto'/></td>
    
   </tr>
   
   <tr>
    <th>Employee Name</th>
-   <td> <jsp:getProperty property='ename' name='dto'></td>
+   <td> <jsp:getProperty property='ename' name='dto'/></td>
    
   </tr>
   
   <tr>
    <th>Employee Salary</th>
-   <td> <jsp:getProperty property='bsalary' name='dto'></td>
+   <td> <jsp:getProperty property='bsalary' name='dto'/></td>
    
   </tr>
   
   <tr>
    <th>Gross Salary</th>
-   <td> <jsp:getProperty property='grossSalary' name='dto'></td>
+   <td> <jsp:getProperty property='grossSalary' name='dto'/></td>
    
   </tr>
   
