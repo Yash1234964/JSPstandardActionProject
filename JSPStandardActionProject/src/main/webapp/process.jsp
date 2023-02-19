@@ -9,7 +9,7 @@
 
 <% service.generateSalaryDetails(dto); %>
 
-<table border='1'>
+<table border='1' align='center' bgcolor='cyan'>
 
   <tr>
    <th>Employee ID</th>
@@ -40,7 +40,9 @@
    <td> <jsp:getProperty property='netSalary' name='dto'/></td>
    
   </tr>
+  <h1 style:'text-align=center'>
   
   <a href='./index.html'/>|Home Page|</a>
+  </h1>
 
 </table>
